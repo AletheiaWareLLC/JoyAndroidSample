@@ -5,16 +5,10 @@ JoyAndroidSample
 
 Setup
 =====
-Libraries
+JoyAndroidSample should be in the same parent directory as the following prerequisite projects;
 
-    mkdir app/libs
-    ln -s <protolib> app/libs/protobuf-lite-3.0.1.jar
-
-AARs
-
-    mkdir joy-android
-    ln -s <path/to/JoyAndroid/app/build/outputs/aar/app-debug.aar> joy-android/
-    ln -s <path/to/JoyAndroid/app/build/outputs/aar/app-release.aar> joy-android/
+    JavaCommon
+    JoyAndroid
 
 Build
 =====
